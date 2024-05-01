@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="palindrome.css">
+  <link rel="stylesheet" href="menu.css">
+</head>
+<body>
+  <div class="menu position-fixed top-0 start-50 translate-middle-x">
+    <a href="dnaToRna.html" onclick="showPage('home')">DNA to RNA</a>
+    <a href="palindrome.html" onclick="showPage('about')">Palindrome</a>
+    <a href="substr.html" onclick="showPage('contact')">Substr</a>
+  </div>
+
+  <form action="" class="palindrome position-absolute top-100px start-50 translate-middle-x" onsubmit="isPalindrome()">
+    <h1 class="palindrome__text_write">Write Palindrome</h1>
+    <input class="palindrome__input" type="text">
+    <button class="palindrome__button">Submit</button>
+  </form>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

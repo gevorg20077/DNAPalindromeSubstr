@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="dnaToRna.css">
+  <link rel="stylesheet" href="menu.css">
+</head>
+<body>
+  <div class="menu position-fixed top-0 start-50 translate-middle-x">
+    <a href="dnaToRna.html" onclick="showPage('home')">DNA to RNA</a>
+    <a href="palindrome.html" onclick="showPage('about')">Palindrome</a>
+    <a href="substr.html" onclick="showPage('contact')">Substr</a>
+  </div>
+  
+  <form action="" class="DNA_to_RNA" onsubmit="createRNA()">
+    <h1 class="DNA_to_RNA__text_DNA">Write DNA</h1>
+    <input class="DNA_to_RNA__input_DNA" type="text">
+    <button class="DNA_to_RNA__button">Submit</button>
+  </form>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
