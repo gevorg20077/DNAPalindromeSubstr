@@ -10,12 +10,12 @@
 </head>
 <body>
   <div class="menu position-fixed top-0 start-50 translate-middle-x">
-    <a href="dnaToRna.html" onclick="showPage('home')">DNA to RNA</a>
-    <a href="palindrome.html" onclick="showPage('about')">Palindrome</a>
-    <a href="substr.html" onclick="showPage('contact')">Substr</a>
+    <a href="dnaToRna.html">DNA to RNA</a>
+    <a href="palindrome.html">Palindrome</a>
+    <a href="substr.html">Substr</a>
   </div>
 
-  <form action="" class="substr position-absolute top-100px start-50 translate-middle-x" onsubmit="substr()">
+  <form action="" class="substr position-absolute top-100px start-50 translate-middle-x">
     <h1 class="substr__text_write">Write Substring</h1>
     <input class="substr__word" type="text" placeholder="Word">
     <input class="substr__start_index" type="number" placeholder="Start">
@@ -23,7 +23,7 @@
     <button class="substr__button">Submit</button>
   </form>
 
-  <script src="script.js"></script>
+  <script type="module" src="mainSubstr.js"></script>
 </body>
 
 </html>
